@@ -1,6 +1,6 @@
 # Online-Marketplace
 
-#### Vy **DWilken02**
+#### By **DWilken02**
 
 ## Technologies used
 
