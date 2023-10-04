@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Online-Marketplace</title>
+  </head>
+  <body>
+    <h1>Online Marketplace</h1>
+    <p><strong>Select product:</strong></p>
+    <form id="radio-form">
+      <label>
+        <input type="radio" name="product" value="necklace" checked>
+        Necklace ($100)
+      </label><br>
+      <label>
+        <input type="radio" name="product" value="earrings" checked>
+        Earrings ($200)
+      </label><br>
+      <label>
+        <input type="radio" name="product" value="bracelet" checked>
+        Bracelet ($300)
+      </label><br>
+      <p><strong>Payment info:</strong></p>
+      <label for="creditCardNumber">Card number:</label>
+      <input id="creditCardNumber" type="number" name="creditCardNumber"><br>
+      <label for="cvv">CVV:</label>
+      <input id="cvv" type="number" name="cvv"><br>
+      <label for="exp-date">Exp date:</label>
+      <input id="exp-date" type="text" name="exp-date"></input>
+      <p>Shipping Details:</p>
+      <label for="address">Address</label>
+      <input id="address" type="text" name="address"><br>
+      <label for="city">City</label>
+      <input id="city" type="text" name="city">
+      <label for="state">State</label>
+      <input id="state" type="text" name="state">
+      <label for="zip-code">ZIP code</label>
+      <input id="zip-code" type="text" name="zip-code"><br>
+      <button type="submit">Submit</button>
+    </form>
+    <h2>Results</h2>
+    <p id="output"></p>
+  </body>
+</html>
