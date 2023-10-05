@@ -10,25 +10,31 @@
     <p><strong>Select product:</strong></p>
     <form id="radio-form">
       <label>
-        <input type="radio" name="product" value="necklace" checked>
+        <input type="radio" name="product" value="Necklace" checked>
         Necklace ($100)
       </label><br>
       <label>
-        <input type="radio" name="product" value="earrings" checked>
+        <input type="radio" name="product" value="Earrings" checked>
         Earrings ($200)
       </label><br>
       <label>
-        <input type="radio" name="product" value="bracelet" checked>
+        <input type="radio" name="product" value="Bracelet" checked>
         Bracelet ($300)
       </label><br>
+      <button type="submit">Submit</button>
+    </form>
+    <form id="payment-info">
       <p><strong>Payment info:</strong></p>
       <label for="creditCardNumber">Card number:</label>
       <input id="creditCardNumber" type="number" name="creditCardNumber"><br>
-      <label for="cvv">CVV:</label>
+      <label for="cvv">cvv:</label>
       <input id="cvv" type="number" name="cvv"><br>
       <label for="exp-date">Exp date:</label>
       <input id="exp-date" type="text" name="exp-date"></input>
-      <p>Shipping Details:</p>
+      <button type="submit">Submit</button>
+    </form>
+    <form id="shipping-info">
+      <p><strong>Shipping Details:</strong></p>
       <label for="address">Address</label>
       <input id="address" type="text" name="address"><br>
       <label for="city">City</label>
@@ -40,6 +46,15 @@
       <button type="submit">Submit</button>
     </form>
     <h2>Results</h2>
-    <p id="output"></p>
+    <p>
+      Product: <span id="product-display"></span><br>
+      Card number: <span id="card-number-display"></span><br>
+      cvv: <span id="cvv-display"></span><br>
+      Exp date: <span id="exp-date-display"></span><br>
+      Shipping Address: <span id="address-display"></span><br>
+      City: <span id="city-display"></span><br>
+      State: <span id="state-display"></span><br>
+      Zip-code: <span id="zip-code-display"></span><br>
+    </p>
   </body>
 </html>
