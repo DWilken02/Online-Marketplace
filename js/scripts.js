@@ -29,6 +29,7 @@ function handleOrderFormSubmission(event) {
   document.querySelector("span#city-display").innerText = cityInput;
   document.querySelector("span#state-display").innerText = stateInput;
   document.querySelector("span#zip-code-display").innerText = zipCodeInput;
+  document.getElementById("results").removeAttribute("class");
 }
 
 // Business Logic
