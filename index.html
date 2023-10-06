@@ -8,7 +8,7 @@
   <body>
     <h1>Online Marketplace</h1>
     <p><strong>Select product:</strong></p>
-    <form id="radio-form">
+    <form id="order-form">
       <label>
         <input type="radio" name="product" value="Necklace" checked>
         Necklace ($100)
@@ -21,9 +21,6 @@
         <input type="radio" name="product" value="Bracelet">
         Bracelet ($300)
       </label><br>
-      <button type="submit">Submit</button>
-    </form>
-    <form id="payment-info">
       <p><strong>Payment info:</strong></p>
       <label for="creditCardNumber">Card number:</label>
       <input id="creditCardNumber" type="number" name="creditCardNumber"><br>
@@ -31,9 +28,6 @@
       <input id="cvv" type="number" name="cvv"><br>
       <label for="exp-date">Exp date:</label>
       <input id="exp-date" type="text" name="exp-date"></input>
-      <button type="submit">Submit</button>
-    </form>
-    <form id="shipping-info">
       <p><strong>Shipping Details:</strong></p>
       <label for="address">Address</label>
       <input id="address" type="text" name="address"><br>
