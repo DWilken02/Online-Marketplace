@@ -6,39 +6,43 @@
     <title>Online-Marketplace</title>
   </head>
   <body>
-    <h1>Online Marketplace</h1>
-    <p><strong>Select product:</strong></p>
-    <form id="order-form">
-      <label>
-        <input type="radio" name="product" value="Necklace" checked>
-        Necklace ($100)
-      </label><br>
-      <label>
-        <input type="radio" name="product" value="Earrings">
-        Earrings ($200)
-      </label><br>
-      <label>
-        <input type="radio" name="product" value="Bracelet">
-        Bracelet ($300)
-      </label><br>
-      <p><strong>Payment info:</strong></p>
-      <label for="creditCardNumber">Card number:</label>
-      <input id="creditCardNumber" type="number" name="creditCardNumber"><br>
-      <label for="cvv">cvv:</label>
-      <input id="cvv" type="number" name="cvv"><br>
-      <label for="exp-date">Exp date:</label>
-      <input id="exp-date" type="text" name="exp-date"></input>
-      <p><strong>Shipping Details:</strong></p>
-      <label for="address">Address</label>
-      <input id="address" type="text" name="address"><br>
-      <label for="city">City</label>
-      <input id="city" type="text" name="city"><br>
-      <label for="state">State</label>
-      <input id="state" type="text" name="state"><br>
-      <label for="zip-code">ZIP code</label>
-      <input id="zip-code" type="text" name="zip-code"><br>
-      <button type="submit">Submit</button>
-    </form>
+    <div id="form-container">
+      <div id="form">
+        <h1>Online Marketplace</h1>
+        <p><strong>Select product:</strong></p>
+        <form id="order-form">
+          <label>
+            <input type="radio" name="product" value="Necklace" checked>
+            Necklace ($100)
+          </label><br>
+          <label>
+            <input type="radio" name="product" value="Earrings">
+            Earrings ($200)
+          </label><br>
+          <label>
+            <input type="radio" name="product" value="Bracelet">
+            Bracelet ($300)
+          </label><br>
+          <p><strong>Payment info:</strong></p>
+          <label for="creditCardNumber">Card number:</label>
+          <input id="creditCardNumber" type="number" name="creditCardNumber"><br>
+          <label for="cvv">cvv:</label>
+          <input id="cvv" type="number" name="cvv"><br>
+          <label for="exp-date">Exp date:</label>
+          <input id="exp-date" type="text" name="exp-date"></input>
+          <p><strong>Shipping Details:</strong></p>
+          <label for="address">Address</label>
+          <input id="address" type="text" name="address"><br>
+          <label for="city">City</label>
+          <input id="city" type="text" name="city"><br>
+          <label for="state">State</label>
+          <input id="state" type="text" name="state"><br>
+          <label for="zip-code">ZIP code</label>
+          <input id="zip-code" type="text" name="zip-code"><br>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
     <div id="results" class="hidden">
       <h2>Results</h2>
       <p>
