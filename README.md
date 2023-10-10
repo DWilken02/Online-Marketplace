@@ -6,7 +6,7 @@
 
 * Visual Studio Code
 
-## Languaged used
+## Languages used
 
 * HTML
 * CSS
